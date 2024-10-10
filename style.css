@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f3f3f3;
+    font-family: 'Arial', sans-serif;
+  }
+  .enorme{
+    font-size: 30em;
+  }
+  
+  .simon-game {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-gap: 20px;
+    margin: 20px;
+  }
+  
+  .color {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .green {
+    background-color: #00a74a;
+  }
+  
+  .red {
+    background-color: #9f0f17;
+  }
+  
+  .yellow {
+    background-color: #f2b233;
+  }
+  
+  .blue {
+    background-color: #094a8f;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    color: #333;
+  }
+  .pressed {
+    background-color: #ff00e1;
+  }
+  .invisible{
+    display: none;
+  }
